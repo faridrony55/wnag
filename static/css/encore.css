@@ -1,0 +1,113 @@
+body, wrapper {
+   min-height:100vh;
+}
+
+a:hover {
+  color: #f1ff29;
+  text-decoration: none;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+
+.color-encore {
+  background-color: #17540E !important;
+}
+
+.display-none {
+  display: none;
+}
+
+.flash p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flash-error {
+  background-color: red;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.flash-error ul {
+  list-style: none;
+  width: 100%;
+}
+
+.flash-error li {
+  padding: 5px;
+}
+
+.flash-message {
+  background-color: green;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.flash-message ul {
+  list-style: none;
+  width: 100%;
+}
+
+.flash-message li {
+  padding: 5px;
+}
+
+.flash-success {
+  background-color: green;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.flash-success ul {
+  list-style: none;
+  width: 100%;
+}
+
+.flash-success li {
+  padding: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .panel-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .songbook-results {
+    font-size: 0.9rem;
+  }
+}
+
+.panel-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.panel-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.title-text {
+  font-size: 72px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.subtitle-text {
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 20px;
+}

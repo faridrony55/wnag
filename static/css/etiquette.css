@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+}
+
+.title-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient(rgba(30, 33, 42, 0.7), rgba(30, 33, 42, 0.7)),
+    url("../images/encore_wallpaper_800.jpg") center/cover;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section:nth-child(2) {
+  background-color: #88527F;
+}
+
+.section:nth-child(3) {
+  background-color: #9EA93F;
+}
+
+.section:nth-child(4) {
+  background-color: #004346;
+}
+
+.section:nth-child(5) {
+  background-color: #E9724C;
+}
+
+.section:nth-child(6) {
+  background-color: #1F5673;
+}
+
+.section:nth-child(7) {
+  background-color: #8A897C;
+}
+
+.section:nth-child(8) {
+  background-color: #403F4C;
+}
+
+.section:nth-child(9) {
+  background-color: #B76D68;
+}
+
+.section:nth-child(10) {
+  background-color: #004346;
+}
+
+.section:nth-child(12) {
+  background-color: #508991;
+}
+
+.section:nth-child(12) {
+  background-color: #508991;
+}
